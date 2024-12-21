@@ -24,14 +24,14 @@ pip install -r requirements.txt
 pip install -r requirements.txt
 
 ## Usage
-Run the Flask application:
+- Run the Flask application:
 python app.py
 
--Open a web browser and navigate to:
+- Open a web browser and navigate to:
 http://127.0.0.1:5000
 
--Upload a CSV file containing stock market data.
+- Upload a CSV file containing stock market data.
 
--View the predicted stock price for the next day along with a graphical representation.
+- View the predicted stock price for the next day along with a graphical representation.
 
 
