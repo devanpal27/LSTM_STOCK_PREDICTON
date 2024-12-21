@@ -18,29 +18,20 @@ pip install -r requirements.txt
 
 ## Installation
 1. Clone this repository:
-   
-   git clone https://github.com/your-username/stock-prediction-app.git
-   cd stock-prediction-app
-Usage
+- git clone https://github.com/your-username/stock-prediction-app.git
+-cd stock-prediction-app
+2.Install the required dependencies:
+pip install -r requirements.txt
+
+## Usage
 Run the Flask application:
 python app.py
 
-Open a web browser and navigate to:
+-Open a web browser and navigate to:
 http://127.0.0.1:5000
 
-Upload a CSV file containing stock market data.
+-Upload a CSV file containing stock market data.
 
-View the predicted stock price for the next day along with a graphical representation.
+-View the predicted stock price for the next day along with a graphical representation.
 
-File Structure
-app.py: Main Flask application.
-templates/index.html: Upload form.
-templates/result.html: Result page displaying predictions.
-uploads/: Directory for storing uploaded files.
-Model/StockPrediction.py: Stock prediction logic.
-Key Functionality
-File Upload: Ensures only CSV files are accepted.
-Prediction Logic: Utilizes the run_stock_prediction function for analyzing stock data.
-Result Display: Shows the predicted value and an accompanying graph.
-Contributing
-Feel free to contribute to this project by creating pull requests or submitting issues.
+
