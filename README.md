@@ -19,9 +19,9 @@ pip install -r requirements.txt
 ## Installation
 1. Clone this repository:
 - git clone https://github.com/your-username/stock-prediction-app.git
--cd stock-prediction-app
+- cd stock-prediction-app
 2.Install the required dependencies:
-pip install -r requirements.txt
+ pip install -r requirements.txt
 
 ## Usage
 - Run the Flask application:
